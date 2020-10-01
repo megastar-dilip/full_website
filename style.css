@@ -1,0 +1,144 @@
+* { margin:0; padding:0; border:0; }
+body {
+	background-color:#F60;
+}
+#content_wrapper {
+	background-image:url(image/team.jpg);
+	background-size:auto;
+	width:1000px;
+	height:1300px;
+	transform:translate(17%,5%);
+	border-radius:30px;
+}
+#box1 {
+	width:1000px;
+	height:250px;
+}
+#logo1 {
+	float:left;
+	transform:translate(5%,10%);
+	border:2px #00F solid;
+}
+#logo2 {
+	float:right;
+	width:200px;
+	height:100px;
+	text-align:center;
+	transform:translate(-15%,20%);
+}
+#box2 ul {
+	list-style-type:none;
+}
+#box2 {
+	width:1000px;
+	height:60px;
+	float:left;
+}
+#box2 ul li {
+	background-color:#ff6;
+	border:#f90 solid 2px;
+	width:190px;
+	height:50px;
+	text-align:center;
+	line-height:300%;
+	float:left;
+	position:relative;
+	border-radius:20px;
+	margin:4px;
+	border:4px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+#box2 ul li a {
+	text-decoration:none;
+	color:#00F;
+	display:block;
+}
+#box2 ul li a:hover {
+	background-color:#0F0;
+	border-radius:20px;
+}
+#box2 ul ul {
+	position:absolute;
+	display:none;
+}
+#box2 ul li:hover>ul {
+	display:block;
+}
+#box2 ul ul ul {
+	margin-left:190px;
+	top:0px;
+}
+#box3 {
+	width:900px;
+	height:300px;
+	position:absolute;
+	background-image:url(image/4.jpg);
+	background-size:100% 100%;
+	transform:translate(5%,25%);
+	z-index:-1;
+	border-radius:30px;
+	animation:slider 15s infinite linear;
+	border:2px solid #000;
+}
+
+@keyframes slider {
+	0% { background-image:url(image/4.jpg);}
+	20% { background-image:url(image/1.jpg);}
+	40% { background-image:url(image/2.jpg);}
+	60% { background-image:url(image/3.jpg);}
+	80% { background-image:url(image/6.webp);}
+}
+
+#box4 {
+	width:1000px;
+	height:400px;
+	transform:translate(0%,100%);
+}
+#phage1 {
+	width:600px;
+	height:400px;
+	float:left;
+	transform:translate(5%,-15%);
+}
+#phage2 {
+	width:300px;
+	height:400px;
+	float:right;
+	transform:translate(-5%,-15%);
+}
+.look1 {
+	padding:10px;
+}
+.look2 {
+	float:right;
+	transform:translate(-5%,-125%);
+}
+#tom1 {
+	width:250px;
+	height:100px;
+}
+#tom2 {
+	float:right;
+	width:250px;
+	height:100px;
+	transform:translate(90%,-100%);
+}
+#box5 {
+	width:1000px;
+	height:100px;
+	transform:translate(0%,350%);
+}
+#love1 {
+	width:300px;
+	height:100px;
+	float:left;
+}
+#love2 {
+	width:200px;
+	height:100px;
+	float:right;
+}
+
+
+
